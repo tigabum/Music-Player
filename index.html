@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="music-container">
+        <div class="img-container">
+            <img src="img/beki.jpg" alt="player-image">
+
+        </div>
+       <h2 class="title" id="title" >Protestant Songs</h2>
+       <h3 class="artist" id="artist" >Worship God</h3>
+       <audio src="music/dani.mp3"  ></audio>
+       <div class="progress-wrapper" id="progress-wrapper">
+           <div class="progress" id="progress"></div>
+           <div class="duration-wrapper" id="duration-wrapper">
+                <span class="current-time" id="current-time" >0:00</span>
+               <span class="duration" id="duration" >2:00</span>
+              
+           </div>
+       </div>
+       <div class="play-control">
+        <i class="fas fa-backward" id="prev" title="Previous"></i>
+        <i class="fas fa-play main-button" id="play" title="Play"></i>
+        <i class="fas fa-forward" id="next" title="Next"></i>
+        
+       </div>
+
+    </div>
+    <script src="/script.js" ></script>
+</body>
+</html>
